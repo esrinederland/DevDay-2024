@@ -1,0 +1,34 @@
+﻿<Window x:Class="Inwinnen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:esri="http://schemas.esri.com/arcgis/runtime/2013"
+        xmlns:local="clr-namespace:Inwinnen"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="1200">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="250" />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <esri:MapView  x:Name="mvFormMaps" />
+            <Grid HorizontalAlignment="Right" VerticalAlignment="Top">
+                <StackPanel Orientation="Vertical">
+                    <Button x:Name="AddPoint" Content="Point" Width="100" Height="22" Margin="5" Click="AddPoint_Click"></Button>
+                    <Button x:Name="Ok" Content="Ok" Width="100" Height="22" Margin="5" Click="Ok_Click"></Button>
+                </StackPanel>
+            </Grid>
+        </Grid>
+        <Grid Grid.Column="1" Margin="5">
+            <StackPanel x:Name="spMainForm" Orientation="Vertical" Visibility="Hidden">
+                <esri:FeatureFormView x:Name="ffvMain" />
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="btnCancel" Width="100" Height="22" Margin="5" Content="Cancel" Click="btnCancel_Click" />
+                    <Button x:Name="btnSave" Width="100" Height="22" Margin="5" Content="Save" Click="btnSave_Click" />
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

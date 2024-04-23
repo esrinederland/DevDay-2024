@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonumentenKaart", "MonumentenKaart.csproj", "{F60688ED-B70E-4C00-B0D4-D963739FF649}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F60688ED-B70E-4C00-B0D4-D963739FF649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60688ED-B70E-4C00-B0D4-D963739FF649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60688ED-B70E-4C00-B0D4-D963739FF649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60688ED-B70E-4C00-B0D4-D963739FF649}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12FBF1E2-608A-4C74-BC37-AD65E679A291}
+	EndGlobalSection
+EndGlobal
