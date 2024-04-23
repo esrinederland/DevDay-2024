@@ -7,6 +7,7 @@ namespace TrainMap.Data
 	{
 		internal const string ServiceUrl = @"https://gateway.apiportal.ns.nl/virtual-train-api/api";
 
+		internal const string ServiceKey = "NS api key";
 
 		internal const string RailLayerPath = @"D:\Data\SpoortakMobile.geodatabase";
 
