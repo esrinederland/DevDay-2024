@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiChat", "AIChat\AiChat.csproj", "{1096601B-F36E-4F74-AE3E-7AE908A36FD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AiCore", "AICore\AiCore.csproj", "{01314419-2EAF-4BB3-92F7-66BA499A9536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcGISProAi", "ArcGISProAi\ArcGISProAi.csproj", "{866D3F8D-C3DC-4878-B8B2-978F879466E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1096601B-F36E-4F74-AE3E-7AE908A36FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1096601B-F36E-4F74-AE3E-7AE908A36FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1096601B-F36E-4F74-AE3E-7AE908A36FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1096601B-F36E-4F74-AE3E-7AE908A36FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01314419-2EAF-4BB3-92F7-66BA499A9536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01314419-2EAF-4BB3-92F7-66BA499A9536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01314419-2EAF-4BB3-92F7-66BA499A9536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01314419-2EAF-4BB3-92F7-66BA499A9536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{866D3F8D-C3DC-4878-B8B2-978F879466E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{866D3F8D-C3DC-4878-B8B2-978F879466E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{866D3F8D-C3DC-4878-B8B2-978F879466E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{866D3F8D-C3DC-4878-B8B2-978F879466E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {337C6072-920D-4607-9007-D1700A2FB133}
+	EndGlobalSection
+EndGlobal

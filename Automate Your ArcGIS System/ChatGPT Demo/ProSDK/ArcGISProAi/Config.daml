@@ -1,0 +1,50 @@
+﻿<ArcGIS defaultAssembly="ArcGISProAi.dll" defaultNamespace="ArcGISProAi" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{590b607c-6e6b-45d0-a040-664ae0694622}" version="1.0" desktopVersion="3.2.49743">
+    <Name>ArcGISProAi</Name>
+    <Description>ArcGISProAi description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>Peter Mallo</Author>
+    <Company>Esri Nederland</Company>
+    <Date>03-Apr-2024 09:50:25</Date>
+    <Subject>Framework</Subject>
+  </AddInInfo>
+  <modules>
+    <insertModule id="ArcGISProAi_Module" className="Module1" autoLoad="false" caption="Module1">
+      <tabs>
+        <tab id="ArcGISProAi_Tab1" caption="Esri Connect 2024" keytip="E">
+          <group refID="ArcGISProAi_Group1" />
+        </tab>
+      </tabs>
+      <groups>
+        <group id="ArcGISProAi_Group1" caption="Esri Connect 2024" appearsOnAddInTab="false" keytip="e">
+          <tool refID="ArcGISProAi_WhichPlace" size="large" />
+          <tool refID="ArcGISProAi_GiveCafe" size="large" />
+          <tool refID="ArcGISProAi_ShowCafe" size="large" />
+          <tool refID="ArcGISProAi_ShowCafeGraphic" size="large" />
+          <tool refID="ArcGISProAi_MoreInfo" size="large" />
+          <tool refID="ArcGISProAi_CafeUsingREST" size="large" />
+        </group>
+      </groups>
+      <controls>
+        <tool id="ArcGISProAi_WhichPlace" keytip="w" caption="Welke plaats" className="WhichCity" loadOnClick="true" smallImage="GenericButtonRed16" largeImage="GenericButtonRed32" condition="esri_mapping_mapPane">
+          <tooltip heading="Tooltip Heading">Welke plaats ligt op de gekozen locatie<disabledText /></tooltip>
+        </tool>
+        <tool id="ArcGISProAi_GiveCafe" keytip="c" caption="Geef 5 cafe's" className="GiveCafe" loadOnClick="true" smallImage="GenericButtonBlue16" largeImage="GenericButtonBlue32" condition="esri_mapping_mapPane">
+          <tooltip heading="Tooltip Heading">Geef 5 cafe's<disabledText /></tooltip>
+        </tool>
+        <tool id="ArcGISProAi_ShowCafe" keytip="s" caption="Toon 5 cafe's" className="ShowCafe" loadOnClick="true" smallImage="GenericButtonGreen16" largeImage="GenericButtonGreen32" condition="esri_mapping_mapPane">
+          <tooltip heading="Tooltip Heading">Toon 5 cafe's<disabledText /></tooltip>
+        </tool>
+        <tool id="ArcGISProAi_ShowCafeGraphic" keytip="g" caption="Toon 5 cafe's graphic" className="ShowCafeGraphic" loadOnClick="true" smallImage="GenericButtonPurple16" largeImage="GenericButtonPurple32" condition="esri_mapping_mapPane">
+          <tooltip heading="Tooltip Heading">Cafe's met graphics<disabledText /></tooltip>
+        </tool>
+        <tool id="ArcGISProAi_MoreInfo" keytip="i" caption="Meer info" className="MoreInfo" loadOnClick="true" smallImage="GenericButtonYellow16" largeImage="GenericButtonYellow32" condition="esri_mapping_mapPane">
+          <tooltip heading="Tooltip Heading">Meer info<disabledText /></tooltip>
+        </tool>
+        <tool id="ArcGISProAi_CafeUsingREST" keytip="r" caption="Toon5 cafe's via REST" className="CafeUsingRest" loadOnClick="true" smallImage="GenericButtonOrange16" largeImage="GenericButtonOrange32" condition="esri_mapping_mapPane">
+          <tooltip heading="Tooltip Heading">Cafe's met de REST interface<disabledText /></tooltip>
+        </tool>
+      </controls>
+    </insertModule>
+  </modules>
+</ArcGIS>
